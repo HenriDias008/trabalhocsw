@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contato</h1>
+<h2>Entre em contato comigo para contratar um serviço ou tirar dúvidas</h2>
+<div>
+    <nav>
+        <ul style="margin-left: 93%;" ><a href="./../Trabalho de CSW/Serviços.html/serviço.html">Serviços</a></ul>
+        <ul style="margin-left: 93%;"><a href="./../Trabalho de CSW/Currículo.html/currículo.html">Currículo</a></ul>
+        <ul style="margin-left: 93%;"><a href= "./../Trabalho de CSW/Github.html/github.html">Github</a></ul>
+        <ul style="margin-left: 93%;"><a href="./../Trabalho de CSW/index.html">Home</a></ul> 
+    </nav>
+</div>
+<hr>
+<div>
+    <h3>Formulário de preenchimento para contato:</h3>
+    <form action="action.php"; method="post">
+ <Label for="nome" style="margin-left: 15px;">Nome:</Label>
+ <input type="text" id="nome" name="nome" placeholder="Escreva" required>
+ <br><br>
+ 
+ <Label for="telefone">Telefone:</Label>
+ <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+ <br><br>
+ <Label for="email">E-mail:</Label>
+ <input type="email" id="email" name="email" placeholder="cliente@exemplo.com" style="margin-left: 13px;">
+    <br><br>
+ <label>Pessoa:</label><br>
+ <input type="radio" id="pf" name="pessoa" value="pessoa física">
+  <label for="pf">Pessoa física (PF)</label>
+  <br><br>
+  <input type="radio" id="pj" name="pessoa" value="pessoa jurídica">
+  <label for="pj">Pessoa jurídica (PJ)</label>
+  <br><br>
+  <label for="horário">Horário de atendimento de preferência:</label>
+  <select name="horário" id="horário">
+  <option value="">Selecione um horário</option>
+  <option value="9">9h</option>
+  <option value="9,30">9h30</option>
+  <option value="10,30">10h30</option>
+  <option value="11">11h</option>
+  <option value="11,30">11h30</option>
+  <option value="13">13h</option>
+  <option value="13,30">13h30</option>
+  <option value="14">14h</option>
+  <option value="14,30">14h30</option>
+  <option value="15">15h</option>
+  <option value="15,30">15h30</option>
+  <option value="16">16h</option>
+  <option value="16,30">16h30</option>
+  <option value="17">17h</option>
+  <option value="17,30">17h30</option>
+  <option value="18">18h</option>
+  <option value="18,30">18h30</option>
+  <option value="19">19h</option>
+  <option value="19,30">19h30</option>
+ 
+
+
+  </select>
+  <br>
+  <br>
+  <label>Tipo desejado de serviço:</label>
+  <br><br>
+  <input type="checkbox" id="restaurante" name="serviço" value="página restaurante">
+  <label for="pagrest">Página para restaurante</label>
+<br><br>
+   <input type="checkbox" id="time" name="serviço" value="página time">
+  <label for="pagtime">Página para time esportivo</label>
+<br><br>
+   <input type="checkbox" id="pagacad" name="serviço" value="página academia">
+  <label for="pagacad">Página para academia</label>
+  <br><br>
+   <input type="checkbox" id="paglivr" name="serviço" value="página livraria">
+  <label for="paglivr">Página para livraria</label>
+  <br><br>
+   <input type="checkbox" id="pagcaf" name="serviço" value="página cafeteria">
+  <label for="pagcaf">Página para cafeteria </label>
+  <br><br>
+   <input type="checkbox" id="pagesc" name="serviço" value="página escolinha">
+  <label for="pagesc">Página para escolinha de esporte</label>
+  <br><br>
+   <input type="checkbox" id="pagfin" name="serviço" value="página fintech">
+  <label for="pagfin">Página para fintech</label>
+   <br><br>
+   <input type="checkbox" id="pagpad" name="serviço" value="página padaria">
+  <label for="pagpad">Página para padaria</label>
+  <br><br>
+   <input type="checkbox" id="pagpad" name="serviço" value="página padaria">
+  <label for="pagpad">Página para padaria</label>
+  <br><br>
+   <input type="checkbox" id="pagoutro" name="serviço" value="página outro">
+  <label for="pagoutro">Outro...</label>
+<br><br>
+  <label for="mensagem">Qual tipo de contrato é desejado:</label>
+  <br><br>
+  <textarea style="width: 500px; height: 100px;" name="contrato" id="cont"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+
+</form>
+
+   
+
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+.tabelão th, .tabelão tr{
+    border: 1px solid;
+   padding: 15px;
+   text-align: left;
+
+}
