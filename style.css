@@ -1,0 +1,88 @@
+.alinhado1{
+text-align: right;
+}
+.imagem1{
+
+    position:absolute;
+    float: left;
+    left: 20%;
+    top: 400px;
+    }
+.container1{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+    width: 90%;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 10px 10px;
+   
+    
+    }
+
+ .imagem2{
+position: absolute;
+left:64%;
+top: 399px;
+}
+h3{
+    margin-top: 10px;
+}
+.esquerda, .direita{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+
+}
+.alongado1, .alongado2{
+    align-items: stretch;
+    width: 275px;
+    overflow-wrap: break-word;
+}
+.vídeo1{
+   align-items: center;
+   justify-self: center;
+}
+.alongado3{
+     align-items: stretch;
+    width: 556px;
+    overflow-wrap: break-word;
+}
+.png{
+   position: absolute;
+   right: 70%;
+  top: 1370px;
+}
+.end{
+    display: grid;
+    position: absolute;
+    left: 40%;
+}
+
+.pop{
+    display: flex;
+    display: grid;
+}
+.vídeo2{
+    position: absolute;
+    top:2150px;
+}
+.end2{
+    display: grid;
+    position: absolute;
+    left: 40%
+    
+}
+.lista1{
+    display: grid;
+    position: absolute;
+    left: 38%;
+}
+.flauta{
+    
+    display: grid;
+    left: 60%;
+    position: absolute;
+}
+
